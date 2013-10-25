@@ -17,6 +17,7 @@
       <parameter key="DoctrineBundle">Doctrine\Bundle\DoctrineBundle\DoctrineBundle</parameter>
       <parameter key="SensioFrameworkExtraBundle">Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle</parameter>
       <parameter key="AcmeDemoBundle">Acme\DemoBundle\AcmeDemoBundle</parameter>
+      <parameter key="AcmeNeogeoBundle">Acme\NeogeoBundle\AcmeNeogeoBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
       <parameter key="SensioGeneratorBundle">Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle</parameter>
@@ -2631,6 +2632,10 @@
       <call method="addPath">
         <argument>C:\wamp\www\dbh1\src\Acme\DemoBundle/Resources/views</argument>
         <argument>AcmeDemo</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\wamp\www\dbh1\src\Acme\NeogeoBundle/Resources/views</argument>
+        <argument>AcmeNeogeo</argument>
       </call>
       <call method="addPath">
         <argument>C:\wamp\www\dbh1\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle/Resources/views</argument>

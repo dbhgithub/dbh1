@@ -1,0 +1,7 @@
+parameters:
+#    acme_neogeo.example.class: Acme\NeogeoBundle\Example
+
+services:
+#    acme_neogeo.example:
+#        class: %acme_neogeo.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

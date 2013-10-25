@@ -1,0 +1,3 @@
+acme_neogeo:
+    resource: "@AcmeNeogeoBundle/Resources/config/routing.yml"
+    prefix:   /

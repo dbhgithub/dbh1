@@ -4,6 +4,7 @@ html {
 body {
     font: 11px Verdana, Arial, sans-serif;
     color: #333;
+    margin: 0;
 }
 .sf-reset, .sf-reset .block, .sf-reset #message {
     margin: auto;
@@ -34,7 +35,7 @@ img {
     display: block;
 }
 .header {
-    padding: 30px 30px 20px 30px;
+    /*padding: 30px 30px 20px 30px;*/
 }
 .header-logo {
     float: left;
@@ -59,7 +60,7 @@ img {
     -webkit-appearance: textfield;
 }
 #content {
-    width: 970px;
+    /*width: 970px;*/
     margin: 0 auto;
 }
 pre {
