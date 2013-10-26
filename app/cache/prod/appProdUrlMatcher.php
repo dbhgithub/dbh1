@@ -25,7 +25,10 @@ class appProdUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirecta
         $allow = array();
         $pathinfo = rawurldecode($pathinfo);
 
-
+        // acme_neogeo_homepage
+        if ($pathinfo === '/neogeo') {
+            return array (  '_controller' => 'Acme\\NeogeoBundle\\Controller\\DefaultController::indexAction',  '_route' => 'acme_neogeo_homepage',);
+        }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }

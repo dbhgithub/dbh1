@@ -82,12 +82,12 @@ class __TwigTemplate_e2f3df5ba12d833ab8cfbdf66f682ff3 extends Twig_Template
     ";
         // line 31
         $context['_parent'] = (array) $context;
-        $context['_seq'] = twig_ensure_traversable($this->getContext($context, "data"));
+        $context['_seq'] = twig_ensure_traversable($this->getContext($context, "banners"));
         foreach ($context['_seq'] as $context["_key"] => $context["d"]) {
             echo "      
     { src:\"";
             // line 32
-            echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl($this->getContext($context, "d")), "html", null, true);
+            echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl($this->getAttribute($this->getContext($context, "d"), "image")), "html", null, true);
             echo "\", fade:1000 },
     ";
         }
@@ -102,28 +102,8 @@ class __TwigTemplate_e2f3df5ba12d833ab8cfbdf66f682ff3 extends Twig_Template
 });
 </script>
 
-
 <div id=\"neogeo-container\">
     <div class=\"data\">ABC</div>
-    
-    <ul>
-        ";
-        // line 45
-        $context['_parent'] = (array) $context;
-        $context['_seq'] = twig_ensure_traversable($this->getContext($context, "data"));
-        foreach ($context['_seq'] as $context["_key"] => $context["d"]) {
-            // line 46
-            echo "            <li>";
-            echo twig_escape_filter($this->env, $this->getContext($context, "d"), "html", null, true);
-            echo "</li>
-        ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['d'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 48
-        echo "    </ul>
-    
 </div>
 
 <div class=\"js-background-1 container\">
@@ -149,6 +129,6 @@ class __TwigTemplate_e2f3df5ba12d833ab8cfbdf66f682ff3 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  125 => 48,  116 => 46,  112 => 45,  98 => 33,  90 => 32,  84 => 31,  74 => 24,  70 => 23,  67 => 22,  64 => 21,  52 => 11,  49 => 10,  43 => 8,  37 => 5,  34 => 4,  31 => 3,);
+        return array (  98 => 33,  90 => 32,  84 => 31,  74 => 24,  70 => 23,  67 => 22,  64 => 21,  52 => 11,  49 => 10,  43 => 8,  37 => 5,  34 => 4,  31 => 3,);
     }
 }

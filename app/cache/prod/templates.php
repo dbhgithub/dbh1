@@ -77,5 +77,7 @@
   'SwiftmailerBundle:Collector:swiftmailer.html.twig' => 'C:\\wamp\\www\\dbh1\\vendor\\symfony\\swiftmailer-bundle\\Symfony\\Bundle\\SwiftmailerBundle/Resources/views/Collector/swiftmailer.html.twig',
   'DoctrineBundle:Collector:db.html.twig' => 'C:\\wamp\\www\\dbh1\\vendor\\doctrine\\doctrine-bundle\\Doctrine\\Bundle\\DoctrineBundle/Resources/views/Collector/db.html.twig',
   'DoctrineBundle:Collector:explain.html.twig' => 'C:\\wamp\\www\\dbh1\\vendor\\doctrine\\doctrine-bundle\\Doctrine\\Bundle\\DoctrineBundle/Resources/views/Collector/explain.html.twig',
+  'AcmeNeogeoBundle:Default:index.html.twig' => 'C:\\wamp\\www\\dbh1\\src\\Acme\\NeogeoBundle/Resources/views/Default/index.html.twig',
+  'AcmeNeogeoBundle::layout.html.twig' => 'C:\\wamp\\www\\dbh1\\src\\Acme\\NeogeoBundle/Resources/views/layout.html.twig',
   '::base.html.twig' => 'C:/wamp/www/dbh1/app/Resources\\views/base.html.twig',
 );

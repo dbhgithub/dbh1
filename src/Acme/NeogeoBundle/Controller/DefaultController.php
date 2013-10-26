@@ -17,13 +17,7 @@ class DefaultController extends Controller
     public function indexAction()
     {
         
-        //Banner
-        $data = array('banner/parallax4.jpg', 'banner/parallax1.jpg' );        
-        
-        
-        //Servicios
-        
-        return array('data' => $data);
+        return array('banners' => $this->getDoctrine()->getRepository('AcmeNeogeoBundle:Banner')->findAll());
         
     }
 }

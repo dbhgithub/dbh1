@@ -28,8 +28,8 @@ $(function() {
 $.vegas('slideshow', {
   delay:5000,  
   backgrounds:[
-    {% for d in data %}      
-    { src:"{{ asset(d) }}", fade:1000 },
+    {% for d in banners %}      
+    { src:"{{ asset(d.image) }}", fade:1000 },
     {% endfor %}        
   ]
 })('overlay');        
@@ -37,16 +37,8 @@ $.vegas('slideshow', {
 });
 </script>
 
-
 <div id="neogeo-container">
     <div class="data">ABC</div>
-    
-    <ul>
-        {% for d in data %}
-            <li>{{ d }}</li>
-        {% endfor %}
-    </ul>
-    
 </div>
 
 <div class="js-background-1 container">

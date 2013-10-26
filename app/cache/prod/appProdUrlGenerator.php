@@ -13,6 +13,7 @@ use Psr\Log\LoggerInterface;
 class appProdUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerator
 {
     static private $declaredRoutes = array(
+        'acme_neogeo_homepage' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'Acme\\NeogeoBundle\\Controller\\DefaultController::indexAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/neogeo',    ),  ),  4 =>   array (  ),),
     );
 
     /**
